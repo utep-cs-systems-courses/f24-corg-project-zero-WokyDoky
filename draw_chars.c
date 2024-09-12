@@ -1,5 +1,5 @@
 #include "draw.h"		/* for font */
-#include "stdio.h"		/* for putchar */
+#include "stdio.h"		/* for putchar */   //Why not use <stdio.h> ?? ------------------
 
 void print_char_5x7(char c)
 {
@@ -14,3 +14,5 @@ void print_char_5x7(char c)
   }
   putchar('\n');
 }
+
+//Hola hola hola hola
