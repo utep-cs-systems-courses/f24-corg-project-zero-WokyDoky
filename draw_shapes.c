@@ -26,3 +26,13 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//Prints an arrow of specified length. 
+
+void print_arrow(int lenght)
+{
+  printf("%d\n", lenght);
+
+  print_triangle(lenght/2, lenght);
+  print_square(lenght,lenght);
+}
+
