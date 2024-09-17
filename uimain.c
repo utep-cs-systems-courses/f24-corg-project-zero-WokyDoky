@@ -37,9 +37,8 @@ int main()
       break;
     case 'c':
       puts("You selected chars:");
-      //for (char c = 'A'; c < 'E'; c++)
-	    print_char_11x16('a');
-      return 0;
+      const char *message = "Hello!";
+      print_string_11x16(message);
       break;
     case 'q':
       puts("Bye!");
